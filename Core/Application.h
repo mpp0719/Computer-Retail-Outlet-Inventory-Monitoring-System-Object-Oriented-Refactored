@@ -1,11 +1,11 @@
 #pragma once
-#include "StaffService.h"
-#include "Product.h"
-#include "Sale.h"
-#include "Supplier.h"
-#include "StockOrder.h"
-#include "Inventory.h"
-#include "ReportService.h"
+#include "Staff/StaffService.h"
+#include "Product/Product.h"
+#include "Sale/Sale.h"
+#include "Supplier/Supplier.h"
+#include "Stockorder/StockOrder.h"
+#include "Inventory/Inventory.h"
+#include "Report/ReportService.h"
 
 class Application
 {

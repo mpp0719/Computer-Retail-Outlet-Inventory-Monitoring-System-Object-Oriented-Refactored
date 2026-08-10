@@ -1,8 +1,8 @@
-#include "StockOrder.h"
-#include "Database.h"
-#include "Utils.h"
-#include "Staff.h"
-#include "ansi.h"
+#include "Stockorder/StockOrder.h"
+#include "Core/Database.h"
+#include "Core/Utils.h"
+#include "Staff/Staff.h"
+#include "External/ansi.h"
 #include <cppconn/prepared_statement.h>
 #include <cppconn/resultset.h>
 #include <cppconn/statement.h>

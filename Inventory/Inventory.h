@@ -1,7 +1,7 @@
 #pragma once
 #include <string>
-#include "Product.h"
-#include "ReportService.h"
+#include "Product/Product.h"
+#include "Report/ReportService.h"
 
 struct Invoice
 {

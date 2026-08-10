@@ -19,34 +19,34 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ansi.h" />
-    <ClInclude Include="Cart.h" />
-    <ClInclude Include="Database.h" />
-    <ClInclude Include="Application.h" />
-    <ClInclude Include="Inventory.h" />
-    <ClInclude Include="Product.h" />
-    <ClInclude Include="Sale.h" />
-    <ClInclude Include="Staff.h" />
-    <ClInclude Include="Staffservice.h" />
-    <ClInclude Include="Stockorder.h" />
-    <ClInclude Include="Supplier.h" />
-    <ClInclude Include="Utils.h" />
+    <ClInclude Include="External\ansi.h" />
+    <ClInclude Include="Sale\Cart.h" />
+    <ClInclude Include="Core\Database.h" />
+    <ClInclude Include="Core\Application.h" />
+    <ClInclude Include="Inventory\Inventory.h" />
+    <ClInclude Include="Product\Product.h" />
+    <ClInclude Include="Sale\Sale.h" />
+    <ClInclude Include="Staff\Staff.h" />
+    <ClInclude Include="Staff\Staffservice.h" />
+    <ClInclude Include="Stockorder\Stockorder.h" />
+    <ClInclude Include="Supplier\Supplier.h" />
+    <ClInclude Include="Core\Utils.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Application.cpp" />
-    <ClCompile Include="Cart.cpp" />
-    <ClCompile Include="Database.cpp" />
-    <ClCompile Include="Inventory.cpp" />
+    <ClCompile Include="Core\Application.cpp" />
+    <ClCompile Include="Sale\Cart.cpp" />
+    <ClCompile Include="Core\Database.cpp" />
+    <ClCompile Include="Inventory\Inventory.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="Product.cpp" />
-    <ClCompile Include="Reportservice.cpp" />
-    <ClCompile Include="Reportservice.h" />
-    <ClCompile Include="Sale.cpp" />
-    <ClCompile Include="Staff.cpp" />
-    <ClCompile Include="Staffservice.cpp" />
-    <ClCompile Include="Stockorder.cpp" />
-    <ClCompile Include="Supplier.cpp" />
-    <ClCompile Include="Utils.cpp" />
+    <ClCompile Include="Product\Product.cpp" />
+    <ClCompile Include="Report\Reportservice.cpp" />
+    <ClCompile Include="Report\Reportservice.h" />
+    <ClCompile Include="Sale\Sale.cpp" />
+    <ClCompile Include="Staff\Staff.cpp" />
+    <ClCompile Include="Staff\Staffservice.cpp" />
+    <ClCompile Include="Stockorder\Stockorder.cpp" />
+    <ClCompile Include="Supplier\Supplier.cpp" />
+    <ClCompile Include="Core\Utils.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -132,7 +132,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\include\jdbc;C:\Program Files\MySQL\MySQL Server 8.0\include\mysql;C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\include\mysql;C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\lib64</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\include\jdbc;C:\Program Files\MySQL\MySQL Server 8.0\include\mysql;$(ProjectDir);C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\include\mysql;C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\lib64</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -149,7 +149,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\include\jdbc;C:\Program Files\MySQL\MySQL Server 8.0\include\mysql;C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\include\mysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\include\jdbc;C:\Program Files\MySQL\MySQL Server 8.0\include\mysql;$(ProjectDir);C:\Program Files\MySQL\mysql-connector-c++-8.0.27-winx64\include\mysql;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

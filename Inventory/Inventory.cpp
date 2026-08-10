@@ -1,7 +1,7 @@
-#include "Inventory.h"
-#include "Database.h"
-#include "Utils.h"
-#include "ansi.h"
+#include "Inventory/Inventory.h"
+#include "Core/Database.h"
+#include "Core/Utils.h"
+#include "External/ansi.h"
 #include <cppconn/prepared_statement.h>
 #include <cppconn/resultset.h>
 #include <cppconn/statement.h>

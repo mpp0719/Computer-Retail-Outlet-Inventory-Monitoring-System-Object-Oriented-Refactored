@@ -1,8 +1,8 @@
 #pragma once
 #include <string>
-#include "Cart.h"
-#include "Product.h"
-#include "Supplier.h"
+#include "Sale/Cart.h"
+#include "Product/Product.h"
+#include "Supplier/Supplier.h"
 
 namespace sql { class ResultSet; }
 

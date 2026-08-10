@@ -1,8 +1,8 @@
-#include "StaffService.h"
-#include "Staff.h"
-#include "Database.h"
-#include "Utils.h"
-#include "ansi.h"
+#include "Staff/StaffService.h"
+#include "Staff/Staff.h"
+#include "Core/Database.h"
+#include "Core/Utils.h"
+#include "External/ansi.h"
 #include <cppconn/prepared_statement.h>
 #include <cppconn/resultset.h>
 #include <cppconn/statement.h>

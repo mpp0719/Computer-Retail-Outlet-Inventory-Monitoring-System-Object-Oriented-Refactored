@@ -13,83 +13,92 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{748b7bec-356e-4030-9475-be875c54f469}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Staff">
+      <UniqueIdentifier>{a286aa8d-80cf-4558-9f19-3516ea0110c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\s">
+      <UniqueIdentifier>{b6fdf454-e06d-4acd-8acc-5328300123b5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Staff.h">
+    <ClInclude Include="Staff\Staff.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Database.h">
+    <ClInclude Include="Staff\Staffservice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Utils.h">
+    <ClInclude Include="External\ansi.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Application.h">
+    <ClInclude Include="Product\Product.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Staffservice.h">
+    <ClInclude Include="Sale\Sale.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ansi.h">
+    <ClInclude Include="Sale\Cart.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Product.h">
+    <ClInclude Include="Supplier\Supplier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Sale.h">
+    <ClInclude Include="Stockorder\Stockorder.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Cart.h">
+    <ClInclude Include="Inventory\Inventory.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Supplier.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Core\Database.h">
+      <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Stockorder.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Core\Utils.h">
+      <Filter>Header Files\Core</Filter>
     </ClInclude>
-    <ClInclude Include="Inventory.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Core\Application.h">
+      <Filter>Header Files\Core</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Database.cpp">
+    <ClCompile Include="Core\Database.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Utils.cpp">
+    <ClCompile Include="Core\Utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Staff.cpp">
+    <ClCompile Include="Staff\Staff.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Application.cpp">
+    <ClCompile Include="Core\Application.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Staffservice.cpp">
+    <ClCompile Include="Staff\Staffservice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Product.cpp">
+    <ClCompile Include="Product\Product.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Sale.cpp">
+    <ClCompile Include="Sale\Sale.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Cart.cpp">
+    <ClCompile Include="Sale\Cart.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Supplier.cpp">
+    <ClCompile Include="Supplier\Supplier.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Stockorder.cpp">
+    <ClCompile Include="Stockorder\Stockorder.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Inventory.cpp">
+    <ClCompile Include="Inventory\Inventory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Reportservice.h">
+    <ClCompile Include="Report\Reportservice.h">
       <Filter>Header Files</Filter>
     </ClCompile>
-    <ClCompile Include="Reportservice.cpp">
+    <ClCompile Include="Report\Reportservice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="main.cpp">
